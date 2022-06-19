@@ -1,4 +1,4 @@
-# Приложение для создания и прохождения тестов
+# Приложение с покемонами
 
 Стек: React, Redux, TypeScript, axios, NodeJS (12+), React Router, Material UI
 
