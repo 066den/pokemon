@@ -28,7 +28,7 @@ const PokemonItem: FC<IPokemon> = ({ name, url }) => {
 				</Typography>
 			</CardContent>
 			<CardActions sx={{ justifyContent: 'flex-end' }}>
-				<Button onClick={() => router(`/pokemon/${name}`)}>Learn More</Button>
+				<Button onClick={() => router(`/${name}`)}>Learn More</Button>
 			</CardActions>
 		</Card>
 	);

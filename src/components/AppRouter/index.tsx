@@ -11,7 +11,7 @@ const AppRouter: FC = () => {
 		<AppLayout>
 			<Routes>
 				<Route index element={<Pokemons />} />
-				<Route path='/pokemon/:name' element={<PakemonPage />} />
+				<Route path='/:name' element={<PakemonPage />} />
 				<Route path='*' element={<NotFound />} />
 			</Routes>
 		</AppLayout>

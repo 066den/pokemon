@@ -18,6 +18,7 @@ export default function pokemonsReducer(
 				...state,
 				pokemons: action.payload,
 				isLoading: false,
+				pokemon: {},
 			};
 		case PokemonActionEnum.SET_POKEMON:
 			return { ...state, pokemon: action.payload };

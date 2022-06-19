@@ -35,8 +35,8 @@ interface IMoves {
 }
 
 export interface IPokemon {
-	name: string;
-	url: string;
+	name?: string;
+	url?: string;
 	sprites?: ISprites;
 	weight?: string;
 	height?: string;
